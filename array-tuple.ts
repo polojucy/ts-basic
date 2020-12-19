@@ -7,5 +7,7 @@ numberArr.push(3)
 
 // 元祖的表示和数组非常类似，只不过它将类型写在了里面 这就对每一项起到了限定的作用
 let user: [string, number] = ['jack', 20]
+user.push('rose')
+user.push(18)
 //但是当我们写少一项 就会报错 同样写多一项也会有问题
-// user = ['jack', 20, true]
+// user = ['rose', 20, true]
