@@ -13,3 +13,8 @@ class Bicycle implements Drivable {
         console.log("drive the bicycle")
     }
 }
+
+const car = new Car()
+const bicycle = new Bicycle()
+console.log(car.drive())
+console.log(bicycle.drive())
